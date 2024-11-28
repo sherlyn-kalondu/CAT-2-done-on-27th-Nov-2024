@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        a{
+            padding-left: 137px;
+        }
+        div{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+         
+         
+    </style>
+</head>
+<body>
+    <h2>
+        Register Account
+    </h2>
+    <label for="Name">Full Name:</label>
+    <span style="padding-left: 60px;"> 
+        <input type="name" id="name" name="name" placeholder="as"><span style="color:red;"> User name must be at least 4 charachters</span>
+        </span>
+    <br>
+
+    <div>
+        <label for="password">Password:</label>
+    <span style="padding-left: 66px;">
+        <input type="password" id="password" name="password" placeholder="••"><span style="color:red;">Password must be at 4 charachters</span>
+        </span>
+    </div>
+
+    <label for="password">Confirm Password:</label>
+    <span style="padding-left: 8px;">
+        <input type="password" id="password" name="password" placeholder="•••••"><span style="color:red;">Passwords do not match</span>
+        </span>
+    <br>
+
+    <div> 
+        <label for="email">Email:</label>
+    <span style="padding-left: 90px;">
+        <input type="email" id="email" name="email"placeholder="john@gmail"><span style="color:red;">Invalid email format</span>
+        </span>
+    <br>   
+    <a>Format:john@gmail.com</a>
+       </div>   
+
+    <label for="digits">Phone Number:</label>
+    <span style="padding-left: 33px;"> 
+        <input type="digits" id="number" name="number" placeholder="111111111111111"><span style="color:red;"> Invalid phone number</span>
+        </span>
+    <br>
+    <a>Format: 0XXX-XXX-XXX</a><br>
+
+     <div> 
+        <label for="code">Zip Code:</label>
+     <span style="padding-left: 68px;">
+        <input type="code" id="code" name="code" placeholder="11111111111111111111"><span style="color:red;"> Invalid Zip Code</span>
+        </span>
+    <br>
+    <a>Format: Use 5 or 9 digits Zip Code</a><br>
+    </div>
+
+    <label for="type">Card Type:</label>
+    <span style="padding-left: 62px;"> 
+        <input type="text" id="type" name="type" placeholder="Visa">
+        </span>
+    <br>
+
+    <div> 
+        <label for="digits">Card Number:</label>
+    <span style="padding-left: 42px;">
+        <input type="digits" id="number" name="number" placeholder="11111111111111111"><span style="color:red;">  Invalid card number or format</span>
+        </span>
+    <br>
+    <a>Format: 1111-2222-3333-4444</a><br>
+    </div>
+
+    <label for="Date">Expiration Date:</label>
+    <span style="padding-left: 30px;">
+        <input type="date" id="date" name="date" placeholder="111111111111111111111"><span style="color:red;">invalid date format</span>
+        </span>
+    <br>
+    <a>Format: YYYY-MM-DD</a>
+    <br>
+
+    <div>
+    <span style="padding-left: 200px;">
+    <input type="submit" value="Register">
+    <input type="submit" value="Reset">
+    </span>
+</div>
+</body>
+</html>

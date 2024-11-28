@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather application</title>
+    <style>
+        .body{
+            background-color:rgb(175, 172, 172);
+            max-width:600px;
+            margin:100px auto;
+            padding:30px;
+            border-radius:30px;
+        }
+        .header1{
+            text-align: center;
+            color:rgb(81,49,10);
+        }
+        td{
+            color:rgb(95, 16, 95);
+        }
+       .bar{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-inline: 10px;
+            justify-content: space-between;
+            padding-right: 85px; 
+
+        
+       }
+       .bar input{
+            padding:10px;
+            border: whitesmoke;
+            background-color: whitesmoke;
+            width: 410px;
+            height:35px;
+            border-radius: 5px;
+            font-size: 17px;
+        
+       }
+       .bar button{
+            background-color: rgb(95, 16, 95);
+            color: white;
+            height:35px;
+            border-radius:5px;
+            border-color: rgb(45, 9, 45);
+            
+       }
+       button{
+        font-size: 17px;
+        cursor:pointer;
+        height:35px;
+        
+       }
+       footer{
+    padding:0 0 10px 0;
+    border-top:5px solid rgb(175,172,172);
+    text-align:center;
+    color:rgba(0,0,0,0.5);
+    font-size:13px;
+       }
+       a{
+        color:rgb(95, 16, 95);
+       }
+    </style>
+</head>
+<body>
+    <div class="body">
+    <h2 class="header1">
+        <u>Welcome to our Weather Application</u>
+    </h2>
+    <div class="bar">
+    <input type="search" name="city" id="city-name" placeholder="Enter city name">
+    <button type="submit">SEARCH</button>
+    </div>
+    <h2>Paris &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+    <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png" alt="not loading" width="30">&ensp;<sup><strong style="font-size: 40px;">12</strong><sup>℃</sup>
+</h2>
+    <p>
+        Tuesday 14.40, scattered clouds<br>Humidity :<span style="color:purple;">66</span>, Wind Speed  
+    </p>
+    <table>
+        <td>Mon<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15°  &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+        <td>Tue<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15°  &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+        <td>Wed<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15° &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+        <td>Thu<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15° &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+        <td>Fri<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15° &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+        <td>Sat<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15° &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+        <td>Sun<br><img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_7-128.png" alt="rainy" legth="25" width="25" ><br>15° &ensp;<span style="color:rgb(177, 116, 177)">19°</span>&ensp;&ensp;&ensp;</td>
+    </table>
+    <footer>
+        Coded by <a href="https://github.com/Sherlyn" target="_blank">Sherlyn Kalondu</a></u> and is on
+        <a href="https://github.com/Rennish/Week7-Weather-API" target="_blank">Github</a> and hosted by
+         <u style="color:rgb(95, 16, 95);">Netify.</u> <br>
+        The design was done using <a href="https://www.figma.com/" target="_blank">Figma</a>
+    </footer>
+</div>
+</body>
+</html>
